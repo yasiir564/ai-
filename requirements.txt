@@ -1,0 +1,38 @@
+# Cinematic Video Generator - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Stable Diffusion and image generation
+diffusers>=0.21.0
+transformers>=4.21.0
+accelerate>=0.20.0
+safetensors>=0.3.0
+
+# Image processing
+Pillow>=9.0.0
+opencv-python>=4.7.0
+numpy>=1.21.0
+
+# Video processing
+moviepy>=1.0.3
+imageio>=2.25.0
+imageio-ffmpeg>=0.4.8
+
+# Web API
+Flask>=2.3.0
+Werkzeug>=2.3.0
+
+# Utilities
+requests>=2.28.0
+tqdm>=4.64.0
+scipy>=1.9.0
+
+# Optional: GPU acceleration (uncomment if using CUDA)
+# --index-url https://download.pytorch.org/whl/cu118
+# torch==2.0.0+cu118
+# torchvision==0.15.0+cu118
+# torchaudio==2.0.0+cu118
